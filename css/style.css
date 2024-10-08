@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap');
+
+/*font-family: "Yellowtail", cursive;*/
+/*font-family: "Roboto", sans-serif;*/
+/*font-family: "Nunito Sans", sans-serif;*/
+/*font-family: "Asap", sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #ffff;
+}
+
+#info h2 {
+    padding-top: 5%;
+    font-family: "Asap", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* p {
+    color: white;
+    padding: 2%;
+    text-indent: 1.8rem;
+} */
+
+/* HEADER */
+header {
+    height: 100vh;
+}
+
+/* NAV */
+nav {
+    background-color: #b6927800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+}
+
+nav #logo {
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+nav #logo img {
+    width: 100%;
+}
+
+nav ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #811FD8;
+    font-weight: 500;
+    text-shadow: 1px 1px #fff;
+    
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid;
+    color: #D1CD23;
+    text-shadow: 1px 1px #DF4F37;
+    transition: all 1s;
+}
+
+
+/* BANNER */
+header .banner {
+    background: linear-gradient(#00000027, #0000007c), url("https://www.grupocorgraf.com.br/wp-content/uploads/2023/05/5144313-scaled.jpg") no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    flex-direction: column;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    color: #811FD8;
+    padding-top: 5rem;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px white;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    padding: 7%;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.botao {
+    background: #811FD8;
+    color: white;
+    padding: 12.8px;
+    font-size: 12.8px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #4a0b81;
+    
+}
+
+/* INFO */
+#info {
+    background: linear-gradient(#00000043, #0000004a);
+    height: 100vh;
+    /* background-size: 20rem; */
+    background-attachment: fixed;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#info img {
+    width: 250px;
+    border-radius: 25px;
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+
+#info h2 {
+    padding-top: 3rem;
+}
+
+.botao_destaque {
+    background: #811FD8;
+    box-shadow: 2px 2px #4a0b81;
+    color: white;
+}
+
+#info p {
+    background: #7019bd87;
+    width: 23%;
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+#info h3 {
+    font-family: "Asap", sans-serif;
+    color: #ffff00;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2%;
+    text-shadow: 2px 1px #DF4F37;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CATALOGO */
+#catalogo {
+    background: linear-gradient(#00000000, #000000a9), url("https://static.vecteezy.com/ti/vetor-gratis/p1/9742382-3d-carrinho-de-compras-com-nuvem-para-compras-online-e-carrinho-de-ideias-de-marketing-digital-e-rotulos-promocionais-em-fundo-branco-bolsa-de-compras-comprar-vender-desconto-3d-ilustracao-de-icone-de-vetor.jpg") no-repeat center;
+    height: 130vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 6rem;
+}
+
+#catalogo hr {
+    height: 2px;
+    border: 0;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#conteudos_catalogo {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+#conteudos_catalogo div {
+    background-color: #ffffff38;
+    max-width: 350px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+#conteudos_catalogo img {
+    width: 85px;   
+}
+
+#catalogo h2 {
+    padding-top: 1%;
+    font-family: "Asap", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(#0000007a, #0000007a), url("https://static.vecteezy.com/ti/vetor-gratis/p1/4627986-icone-de-grafico-de-barras-gratis-vetor.jpg") no-repeat center;
+    text-align: center;
+    background-size: 40vh;
+}
+
+footer p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 10px #000;
+}
+
+footer h2 {
+    color: #fff;
+    padding-top: 1.5rem;
+}
+
+.contatos_card {
+    width: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem all;
+}
+
+footer img {
+    width: 55px;
+    margin-left: 1.5rem;
+}
+
+footer a {
+    color: #fff;
+    font-weight: 600;
+    /* margin-right: rem; */
+    padding-right: 2rem;
+}
+
+.hamburguer,
+.close {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.aparece {
+    display: block;
+}
+
+.some {
+    display: hidden;
+}
+
+
+/* TELAS MENORES MENU */
+@media (max-width: 600px) {
+
+    .hamburguer {
+        display: block;
+    }
+
+    ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 40vw !important;
+        flex-direction: column;
+        justify-content: space-around !important;
+        background-color: #ffffffbe;
+        border-radius: 10px;
+    }
+
+    .show {
+        left: 0;
+        transition: all 1s;
+    }
+
+    .banner p {
+        text-align: column;
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+
+    #info p {
+        width: 88%;
+        text-align: column;
+        margin: 2rem auto;
+    }
+
+    .botao_destaque {
+        margin-bottom: 2rem;
+    }
+
+    #catalogo, #info, #contatos, #home {
+       
+        height: auto;
+       
+    }
+
+    #catalogo {
+        background-size: cover;
+    }
+
+}
